@@ -1,0 +1,22 @@
+{
+  "name": "littleskin-e2e",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.0",
+    "ava": "^3.8.2",
+    "puppeteer": "^3.1.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
